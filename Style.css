@@ -236,3 +236,40 @@ tr:hover {
   border: 2px solid #444;
   border-radius: 6px;
 }
+
+
+.back-to-top {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+
+
+.concert-caption {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  border: 1px solid #444;
+  color: #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.concert-caption h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #00bfff;
+}
+
+.concert-caption p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+  text-align: justify;
+}
