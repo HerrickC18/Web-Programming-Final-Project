@@ -75,14 +75,21 @@ nav {
   border: 2px solid #444;
   border-radius: 8px;
   transition: transform 0.3s, box-shadow 0.3s;
-  background-color: #000;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  max-width: 250px; /
 }
 
 .image-item img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 8px;
 }
+
+
+
+
 
 .video-wrapper {
   position: relative;
