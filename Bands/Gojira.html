@@ -2,17 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Gojira Live</title>
+  <title>Gojira & Mastodon Live</title>
   <link rel="stylesheet" href="../Style.css" />
+  <style>
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      justify-items: center;
+    }
+
+    .video-grid iframe {
+      width: 100%;
+      max-width: 400px;
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Gojira – Live</h1>
+    <h1>Gojira & Mastodon – Live</h1>
     <a href="../index.html">← Back to Home</a>
   </header>
 
-  <main style="padding: 2rem; text-align: center;">
-    <p>Videos coming soon!</p>
+  <main>
+    <h2 style="text-align: center;">Live Footage</h2>
+    
+    <div class="video-grid">
+      <iframe src="https://www.youtube.com/embed/dEO9lZHbKFk"
+              title="Gojira 1" allowfullscreen></iframe>
+
+      <iframe src="https://www.youtube.com/embed/56W8FLCmMGE"
+              title="Gojira 2" allowfullscreen></iframe>
+
+      <iframe src="https://www.youtube.com/embed/NW1DTbbjrQo"
+              title="Mastodon 1" allowfullscreen></iframe>
+    </div>
   </main>
 </body>
 </html>
+
